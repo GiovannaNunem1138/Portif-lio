@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portifólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="Imagem/Avatar-perfil.png" alt="avatar da Giovnna" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Giovanna</p>
+        <h1>Eu sou estudante de Programação</h1>
+        <p>Tenho 16 anos, sou estudante de programação e estou no 2° ano do ensino médio, sempre em busca de aprender e
+            evoluir na área da tecnologia.</p>
+        <p>Minhas Habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagem/Projeto-1.png" class="card-img-top" alt="Imagem do Projeto de Corrida virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Pixelada</h5>
+                        <p class="card-text">Este jogo de corrida foi desenvolvido utilizando a biblioteca P5.js, com
+                            base nos aprendizados adquiridos nas aulas da plataforma Alura. Com suporte para até 4
+                            jogadores, oferece uma experiência divertida e dinâmica, ideal para desafiar os amigos em
+                            disputas eletrizantes pela vitória na pista!</p>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal1">Veja o Projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagem/Projeto-2.png" class="card-img-top"
+                        alt="Imagem do Projeto de Recomendador de filmes">
+                    <div class="card-body">
+                        <h5 class="card-title">Qual o Filme?</h5>
+                        <p class="card-text">Este recomendador de filmes foi desenvolvido com a biblioteca P5.js, com
+                            base nos ensinamentos das aulas da plataforma Alura. Ele conta com uma aba interativa onde
+                            você informa sua idade e preferências, permitindo que as recomendações sejam personalizadas
+                            de forma precisa para o seu perfil. Uma forma divertida e prática de encontrar o filme ideal
+                            para o seu momento!</p>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal2">Veja o Projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Imagem/Projeto-3.png" class="card-img-top"
+                        alt="Imagem do Projeo do jogo Ping Pong virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Pixel Pong</h5>
+                        <p class="card-text">Este jogo de ping pong foi desenvolvido com a biblioteca P5.js, inspirado
+                            nas aulas da plataforma Alura. Permite partidas em dupla, contabiliza os pontos de cada
+                            jogador em tempo real e conta com trilha sonora para deixar as disputas ainda mais
+                            emocionantes. Uma experiência divertida e nostálgica diretamente no navegador!</p>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modal3">Veja o Projeto</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida Pixelada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                        <div class="modal-body">
+                            <p>Este é um jogo de corrida divertido e interativo desenvolvido com a biblioteca P5.js, como parte dos estudos
+                                 realizados através das aulas da plataforma Alura. Diferente dos jogos de corrida tradicionais com carros e 
+                                 pistas complexas, este projeto traz uma proposta criativa e leve: os jogadores controlam emojis que 
+                                 "correm" na tela, e o vencedor é aquele que consegue pressionar as teclas corretas mais rapidamente.</p>
+                            <p>O jogo permite a participação de até 4 jogadores, cada um representado por um emoji diferente. 
+                                Durante a corrida, o sistema exibe teclas (A, S, D, W) que devem ser pressionadas em sequência. 
+                                Cada acerto movimenta o emoji do jogador para frente, criando uma competição dinâmica baseada em agilidade e atenção.</p>
+                            <p>Além da lógica de controle dos personagens e detecção de teclas, o jogo também conta
+                                 com animações simples, criando uma experiência visual divertida. 
+                                 O uso de emojis como corredores traz um toque descontraído e acessível, tornando o jogo fácil de entender e 
+                                 ideal para jogar com amigos.</p>
+                            <p>Esse projeto reforça conceitos fundamentais de programação interativa com JavaScript, 
+                                como controle de eventos, manipulação de elementos gráficos e lógica condicional. 
+                                É um excelente exemplo de como é possível criar experiências envolventes com ideias simples e código limpo.</p>
+                            <img src="Imagem/Projeto-1.png" alt="imagem Representativa do projeto Corrida Pixelada" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                           <a href="">Veja o porjeto você mesmo!</a>
+                           <a href="">Ver código do projeto</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Qual o Filme?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                        <div class="modal-body">
+                            <p>Este projeto é um recomendador de filmes interativo, desenvolvido com a biblioteca P5.js como parte dos estudos realizados por meio dos cursos da plataforma Alura. 
+                                O objetivo do projeto é proporcionar uma experiência simples e personalizada, onde o usuário recebe sugestões de filmes com base em sua idade e preferências pessoais.</p>
+                            <p>A interface do sistema conta com uma aba interativa onde o usuário informa sua faixa etária e seleciona seus gêneros favoritos, como drama, comédia, terror e animação. 
+                                A partir dessas informações, o programa utiliza uma lógica de filtragem para exibir filmes que combinem com o perfil informado, criando uma experiência mais direcionada e eficiente.</p>
+                            <p>Apesar de simples, o projeto aplica conceitos fundamentais da programação com JavaScript e P5.js, como 
+                                entrada de dados, estrutura condicional, organização de listas e exibição dinâmica de conteúdo na tela. 
+                                Além disso, o uso de uma interface amigável e intuitiva permite que usuários de qualquer idade possam utilizar o sistema com facilidade.</p>
+                            <p>Este projeto também demonstra como é possível utilizar a programação 
+                                para resolver problemas do cotidiano — neste caso, a clássica dúvida: “Que filme assistir hoje?”. 
+                                Ao mesmo tempo, serve como exercício prático para consolidar conhecimentos em lógica de programação e desenvolvimento interativo.</p>
+                            <img src="Imagem/Projeto-2.png" alt="imagem Representativa do projeto Recomendador de Filmes" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                           <a href="">Veja o porjeto você mesmo!</a>
+                           <a href="">Ver código do projeto</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3-->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pixel Pong</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                        <div class="modal-body">
+                            <p>Este projeto é uma versão digital do clássico jogo de ping pong, desenvolvido com a biblioteca P5.js como parte dos estudos realizados através dos cursos da plataforma Alura. 
+                                O objetivo foi recriar de forma simples, porém divertida, um jogo nostálgico que funciona diretamente no navegador, utilizando os principais conceitos 
+                                de programação gráfica e interatividade.</p>
+                            <p>O jogo foi projetado para duas pessoas jogarem simultaneamente, cada uma controlando sua própria raquete com teclas específicas do teclado. 
+                                A mecânica é simples: manter a bolinha em movimento e tentar fazer com 
+                                que o oponente não consiga rebater, somando pontos a cada erro do adversário. O placar é exibido em tempo real, atualizando automaticamente a cada rodada.</p>
+                            <p>Além da jogabilidade funcional, o projeto também conta com trilha sonora, que torna a experiência mais imersiva e dinâmica. 
+                                Sons de impacto e fundo musical foram inseridos para acompanhar a ação e dar mais vida ao jogo.</p>
+                            <p>Durante o desenvolvimento, foram aplicados conceitos como detecção de colisões, movimentação de objetos, controle de 
+                                entrada de teclado, lógica de pontuação e efeitos sonoros. 
+                                O projeto é uma ótima forma de praticar programação de jogos simples e entender como pequenas interações podem criar experiências engajantes.</p>
+                            <img src="Imagem/Projeto-3.png" alt="imagem Representativa do projeto do jogo ping pong" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">
+                           <a href="">Veja o porjeto você mesmo!</a>
+                           <a href="">Ver código do projeto</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container py-5">
+            <h2>Entre em Contanto 📞</h2>
+            <div>
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/GiovannaNunem1138">GitHub</a>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
